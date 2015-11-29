@@ -5,6 +5,7 @@ This Go package contains functionality to talk to Confidant.
 
 # How to use?
 
+```go
     package main
 
     import(
@@ -32,6 +33,7 @@ This Go package contains functionality to talk to Confidant.
 
       fmt.Println(string(result.Service))
     }
+```
 
 Global configuration properties:
 
